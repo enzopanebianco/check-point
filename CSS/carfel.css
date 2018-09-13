@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.fundo{
+    background: rgb(140, 239, 252);
+    height: 800px;
+    width: 100%;
+}
+    
+
+
+
+.logo img{
+    animation-iteration-count: infinite;
+    animation-name: logo;
+    animation-duration: 5s;
+}
+.nome{
+    font-family: tw cen mt;
+    font-size: 36pt;
+    color: #1d1d93;
+    animation-name: carfel;
+    animation-duration: 10s;
+    position: relative;
+    animation-iteration-count: infinite;
+    left: 650px;
+    
+    
+}
+.nome a{
+    text-decoration: none;
+}
+.pai a{
+    text-decoration: none;
+    display: flex;
+}
+.pai{
+    display: flex;
+    
+    justify-content: center;
+}
+.quadrado{
+  
+    position: relative;
+    animation-name: aa;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    display: flex;
+    font-size: 72pt;
+    font-family: tw cen mt;
+    color: #1d1d93;
+}
+
+@keyframes logo{
+    0%{
+        transform: rotateY(45deg)
+    }
+    25%{
+        transform: rotateY(90deg)
+    }
+    50%{
+        transform: rotateY(180deg)
+    }
+    75%{
+        transform: rotateY(270deg)
+    }
+    100%{
+        transform: rotateY(360deg)
+    }
+}
+@keyframes carfel{
+    0%{
+       
+    }
+    25%{
+        left: 200px;
+    }
+    50%{
+        left: 400px;
+    }
+    75%{
+        right: 200px;
+        
+    }
+    100%{
+        right: 400px;
+    }
+}
+@keyframes aa{
+    0%{
+     left: 00px;
+     top: 30px;
+    }
+    25%{
+ 
+ left: 2100px;
+ top: 0;
+ 
+    }
+    50%{
+ 
+ left: 210px;
+ top: 200px;
+ 
+ 
+    }
+    75%{
+ 
+ left: 0;
+ top: 200px;
+ border-radius: 100px;
+    }
+    100%{
+ 
+
+ top: 0;
+ border-radius: 90px;
+    }
+ }  
+ @keyframes aa2{
+     0%{
+     
+      left: 0;
+      top: 0;
+     }
+     25%{
+ 
+  left: -2100px;
+  top: 0;
+ 
+     }
+     50%{
+ 
+  left: 150px;
+  top: 200px;
+ 
+     }
+     75%{
+ 
+  left: 0;
+  top: 200px;
+  
+     }
+     100%{
+ 
+       
+  top: 0;
+ 
+     }
+  } 
+ 
+  @keyframes aa3{
+     0%{
+     
+      left: 0;
+      top: 0;
+     }
+     25%{
+ 
+  left: -210px;
+  top:-2100px;
+ 
+     }
+     50%{
+ 
+  left: 100px;
+  top: 200px;
+ 
+     }
+     75%{
+ 
+  left: 0;
+  top: 200px;
+ 
+     }
+     100%{
+ 
+       
+  top: 0;
+  border-radius: 0px;
+     }
+  } 
+  @keyframes aa4{
+     0%{
+     
+      left: 0;
+      top: 0;
+     }
+     25%{
+ 
+  left: -210px;
+  top: 2100px;
+ 
+     }
+     50%{
+ 
+  left: 50px;
+  top: 200px;
+  
+     }
+     75%{
+ 
+  left: 0;
+  top: 200px;
+  border-radius: 100px;
+     }
+     100%{
+ 
+  top: 0;
+  border-radius: 0px;
+     }
+  } 
+ 
